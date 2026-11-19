@@ -144,3 +144,12 @@ Pricing and model capabilities checked 19 November 2026. Rates and model availab
 - The cache is per-process and memory-only. Do not run multiple workers expecting shared caching.
 - Keep API keys in environment variables or a secret manager. Never commit credentials.
 - Before publishing, add rate limiting, observability, bounded cache eviction, and an egress firewall.
+
+## Live demo
+
+- **Live service:** <https://python-practical-test-link-analysis.onrender.com/>
+- **API endpoint:** <https://python-practical-test-link-analysis.onrender.com/link-analysis>
+- **Interactive API docs:** <https://python-practical-test-link-analysis.onrender.com/docs>
+- **Health check:** <https://python-practical-test-link-analysis.onrender.com/health>
+
+The Render free instance may spin down after inactivity, so its first request after a quiet period can take longer to respond.
