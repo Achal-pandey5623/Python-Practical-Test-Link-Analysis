@@ -153,3 +153,11 @@ Pricing and model capabilities checked 19 November 2026. Rates and model availab
 - **Health check:** <https://python-practical-test-link-analysis.onrender.com/health>
 
 The Render free instance may spin down after inactivity, so its first request after a quiet period can take longer to respond.
+
+## Screenshots
+
+Screenshots from a successful local `POST /link-analysis` run against MovingTech:
+
+![Successful response with brand details](docs/screenshots/link-analysis-response-overview.png)
+
+![Competitor analysis response](docs/screenshots/link-analysis-competitor-analysis.png)
